@@ -1,0 +1,33 @@
+/* ---- ESTILO PARA EL MENU ---- */
+nav.sticker{
+	width: 100%;
+	position: sticky;
+	top: 0px;
+}
+
+.menu{
+	font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+	list-style: none;
+	text-align:  right;
+	background: #607D8B;
+	margin: auto;
+	padding: 0 1.375rem 0 0; 
+}
+.menu li{
+	display: inline;
+	text-align: center;
+}
+.menu li a{
+	display: inline-block;
+	text-decoration: none;
+	color: #FFF;
+	font-weight: normal;
+	padding: 1.25rem;
+}
+
+.menu li a:hover{
+	background: #FFF;
+	color: #000;
+	border-radius: 0.125rem;
+	text-decoration: underline;
+}

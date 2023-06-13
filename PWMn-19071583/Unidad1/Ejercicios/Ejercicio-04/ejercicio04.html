@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8" />
+    <title>Trabajando con Formularios</title>
+	<!-- Crear el acceso a la hoja de estilos -->
+	<link rel="stylesheet" type="text/css" href="comun/css/estilo07.css">
+</head>
+	<body>
+		<main class="contenedor" role="main">
+			<h1>LLenar datos personales</h1>
+			<form method="post" action="mostrar-datos.php" enctype="multipart/form-data">
+			
+				<!-- START ACCOUNT FIELDS -->
+				<fieldset>
+					<h2 class="titulo">Datos personales</h2>
+
+					<div class="campos">
+						<div class="renglon">
+							<label for="screen-name">CURP:</label>
+							<input type="text" id="screen-name" name="screen_name" maxlength="18">
+						</div>
+
+						<div class="renglon">
+							<label for="picture">Foto:</label>
+							<input type="file" id="picture" name="picture">
+							<p class="restriccion">Máximo de 700KB JPG, GIF o PNG.</p>
+						</div>
+
+						<div class="renglon">
+							<label for="website">Página web o blog</label>
+							<input type="url" id="website" name="website" placeholder="http://www.ejemplo.com">
+							<p class="restriccion">Si tienes página web o blog <br> debe empezar con <kbd>http://</kbd> o <kbd>https://</kbd>.</p>
+						</div>
+
+						<div class="renglon">
+							<label for="cat">Categoría:</label>
+							<select  id="cat" name="cat">
+								<option value="ad">Administrativo</option>
+								<option value="do">Docente</option>
+								<option value="in">Investigador</option>
+								<option value="td">Técnico docente</option>
+								<option value="as">Asignatura</option>
+							</select>
+						</div>
+
+						<p class="renglon">
+							<label for="bio">Comentarios</label>
+							<textarea id="bio" name="bio" cols="40" rows="4"></textarea>
+						</p>
+
+						<div class="renglon">
+							<fieldset class="radios">
+								<legend>Sexo:</legend>
+								<p class="renglon">
+									<input type="radio" id="gender-male" name="gender" value="male">
+									<label for="gender-male">Masculino</label>
+								</p>
+								<p class="renglon">
+									<input type="radio" id="gender-female" name="gender" value="female">
+									<label for="gender-female">Femenino</label>
+								</p>
+							</fieldset>
+						</div>
+
+						<div class="campos checkboxes">
+							<div class="renglon">
+								<input type="checkbox" id="email-users" name="email_signup[]" value="user-emails">
+								<label for="email-users">Otros usuarios pueden enviarme correos</label>
+							</div>
+							<div class="renglon">
+								<input type="checkbox" id="email-ocasional" name="email_signup[]" value="ocasional-updates">
+								<label for="email-ocasional">Enviarme correos promocionales de otros productos</label>
+							</div>
+						</div>				
+					</div>
+				</fieldset>
+				
+				<!-- END ACCOUNT -->
+				<p class="btn-lugar"><!-- Botón de GUARDAR -->
+					<input type="submit" value="Guardar" class="boton">
+				</p>
+			</form>
+		</main>
+	</body>
+</html>

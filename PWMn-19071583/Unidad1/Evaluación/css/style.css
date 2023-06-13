@@ -1,0 +1,141 @@
+body{
+  font-family: sans-serif;
+  margin: 0;
+}
+
+header {
+  background-color: white;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  color: black;
+  text-decoration: none;
+  font-weight: 600;
+  padding-right: 10px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+  color: grey;
+}
+
+@media (max-width: 700px){
+  header{
+    flex-direction: column;
+  }
+}
+
+.logo {
+  margin-right: 20px;
+  align-items: center;
+  display: flex;
+}
+
+.logo img {
+  width: 200px;
+  height: 100px;
+}
+
+
+.container{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      height: 250x;
+      margin-right: 75px;
+      margin-left: 75px;
+      margin-bottom: 75px;
+
+}
+.card {
+      
+      width: 300px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      padding: 10px;
+      margin: 10px;
+    }
+    
+    .card h3 {
+      margin-top: 0;
+    }
+    
+    .card p {
+      margin-bottom: 10px;
+    }
+
+
+
+
+.Bienvenida {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.Bienvenida h1{
+    text-align: center;
+    color: black;
+}
+
+
+.Bienvenida img {
+  max-width: 100%;
+  height: auto;
+}
+
+#contacto {
+  background-color: #AFAFAF ;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.contacto-container {
+  display: inline-block;
+  text-align: left;
+}
+
+.contacto-container h2 {
+  color: white;
+}
+
+.form-group {
+  margin-bottom: 10px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 5px;
+}
+
+button[type="submit"] {
+  background-color: white;
+  color: black;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+}

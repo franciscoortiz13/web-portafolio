@@ -1,0 +1,70 @@
+body{
+  font-family: sans-serif;
+  margin: 0;
+}
+
+/* Estilos del navbar */
+.navbar {
+  background-color: white;
+  padding: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar-left {
+  flex: 1;
+}
+
+.navbar-right {
+  display: flex;
+  align-items: flex-start;
+}
+
+.navbar-title {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.navbar-menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.navbar-menu li {
+  margin-right: 20px;
+}
+
+.navbar-menu li a {
+  color: black;
+  text-decoration: none;
+  padding-right: 10px;
+}
+
+.navbar-toggle {
+  width: 30px;
+  height: 30px;
+  background-image: url("../img/menu (1).png");
+  background-size: cover;
+  margin-left: 10px;
+  cursor: pointer;
+  display: none;
+}
+
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+  .navbar-menu {
+    display: none;
+  }
+
+  .navbar-toggle {
+    display: block;
+  }
+
+  .navbar-right.active .navbar-menu {
+    display: flex;
+    flex-direction: column;
+  }
+}

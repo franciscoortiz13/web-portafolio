@@ -1,0 +1,54 @@
+body{
+	margin-top: 0px;
+}
+.contenedor{
+	max-width: 900px;
+	margin: 0px auto;
+}
+.prim-ult{
+	padding: 0px 10px;
+	border: 1px solid #6666FF;
+	background-color: #B3B3FF;
+}
+.contenido{
+	height: 380px;
+	background-color: #F2F2F2;
+	border: 2px solid navy;
+		position: relative;
+}
+.info{
+	width: 340px;
+	padding: 0 10px;
+	background-color: #E6E6FF;
+	border: 4px solid navy;
+}
+.info-java{
+	width: 450px;
+}
+.info-resumen{
+	width: 480px;
+	border: 5px solid #73AD21;
+}
+
+/* Selectores de cajas de contenido */
+
+.css{
+	position: absolute;
+	top: 80px;
+	left: 20px;
+}
+.html{
+	position: absolute;
+	top: 0;
+	right: 0px;
+}
+.javascript{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+.resumen{
+	position: absolute;
+	top: 0;
+	left: 20px;
+}

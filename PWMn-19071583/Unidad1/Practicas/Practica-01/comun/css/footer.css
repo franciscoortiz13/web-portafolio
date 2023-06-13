@@ -1,0 +1,45 @@
+/* ---- ESTILO DEL FOOTER ---- */
+.footer{
+	background-color: #406170;
+	color: white;
+}
+
+/* ---- ESTILO DE LA BARRA SEPARADORA ---- */
+.barra{
+	margin: 0px;
+	padding: 0.50rem;
+	background-color: black;
+	text-align: center;
+}
+.barra > p{
+	margin: 0;
+	color: white;
+}
+
+/* ---- CONTENEDOR DE LAS CARDS ---- */
+.flex-footer{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-items: center;
+	margin: 4px 0;
+}
+
+/* ---- ESTILO DE CADA CARD ---- */
+.card-footer{
+	width: 18.75rem;
+	padding: 10px 20px;
+}
+.card-footer > label{
+	display: block;
+	font-family: Tahoma, sans-serif;
+	font-size: 0.875rem;
+	text-align: left;
+	margin: 16px 0;
+	padding: 2px 1px;
+}
+.card-footer > #titulo{
+	font-weight: bolder;
+	font-size: 1rem;
+}
+

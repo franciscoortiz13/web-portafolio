@@ -1,0 +1,86 @@
+/* ---- ESTILO GENERAL DE ELEMENTOS ---- */
+body {
+	font: 100%Geneva, Tahoma, sans-serif;
+	width: 43rem;
+	background-color: rgba(104,112,116,0.70);
+	margin: 0 auto;
+}
+h1,
+h2{
+	font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+	font-weight: normal;
+	letter-spacing: 2px;
+	text-align: center;
+}
+h1{
+	font-size: 2.25rem;
+	line-height: 1.1875rem;
+	text-transform: uppercase;
+}
+h2{
+	font-size: 1.75rem;
+	font-variant: small-caps;
+	color: #eaebef;
+	background-color: #607D8B;
+}
+p{
+	text-align: justify;
+}
+em, a:link, .intro .subhead{
+	font-weight: bold;
+}
+
+
+/* ---- CONTENIDO ---------------------- */
+.architect {
+	background-color: #fff;
+	padding: 1.5rem 1.75rem;
+	
+}
+
+.fondo {
+	background-image: url(img/barcelona.jpg);
+}
+
+.intro{
+	color: #fff;
+	background-color: rgba(104,106,99,0.8);
+	line-height: 1.45;
+	padding: 1px 1.875em 0.7em;
+
+}
+.intro .subhead{
+	font-size: 1.125rem;
+	text-align: center;
+}
+.intro p{
+	font-size: 1.0625rem;
+}
+.project p{
+	font-size: .9375em;
+	line-height: 1.65;
+	text-indent: 2em;
+}
+.photos{
+	text-align: center;
+}
+
+/* :::: Links ::::*/
+a:link{
+	color: #e10000;
+	text-decoration: none;
+}
+a:visited {
+	color: #b44f4f;
+}
+a:hover {
+	color: #f00;
+	text-decoration: underline;
+}
+
+.intro a{
+	color: #fdb09d;
+}
+.intro a:hover{
+	color: #fec4b6;
+}
