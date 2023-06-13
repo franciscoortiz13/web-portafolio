@@ -25,8 +25,13 @@
       text-decoration: none;
     }
     
-    /* Estilos para pantallas más pequeñas */
+    /* Estilos para pantallas más pequeñas 
     @media (max-width: 768px) {
       .card {
         width: 90%;
-      }
+      }*/
+@media (max-width: 768px) {
+  .card {
+    grid-template-columns: 1fr;
+  }
+}
