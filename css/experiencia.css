@@ -1,0 +1,32 @@
+.experiencias {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr);
+  gap: 20px;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 30px;
+}
+
+.experiencia {
+  width: 50%;
+  padding: 20px;
+  background-color: #f5f5f5;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.experiencia h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.experiencia p {
+  margin-bottom: 8px;
+}
+
+@media (max-width: 768px) {
+  .experiencia {
+    grid-template-columns: 1fr;
+  }
+}
